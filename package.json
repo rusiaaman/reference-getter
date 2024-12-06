@@ -1,0 +1,17 @@
+{
+  "name": "reference-getter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.10.1",
+    "ts-morph": "^24.0.0",
+    "typescript": "^5.7.2"
+  }
+}
