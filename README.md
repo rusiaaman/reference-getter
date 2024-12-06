@@ -10,7 +10,7 @@ npm install -g reference-getter
 
 Or install from source:
 ```bash
-git clone https://github.com/yourusername/reference-getter.git
+git clone https://github.com/rusiaaman/reference-getter.git
 cd reference-getter
 npm install
 npm run build

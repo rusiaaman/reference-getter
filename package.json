@@ -1,17 +1,31 @@
 {
   "name": "reference-getter",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "CLI tool to find TypeScript references",
+  "main": "dist/index.js",
+  "bin": {
+    "reference_getter": "./dist/index.js"
+  },
+  "dependencies": {
+    "balanced-match": "^1.0.2",
+    "brace-expansion": "^2.0.1",
+    "code-block-writer": "^13.0.3",
+    "fdir": "^6.4.2",
+    "minimatch": "^9.0.5",
+    "path-browserify": "^1.0.1",
+    "picomatch": "^4.0.2",
+    "tinyglobby": "^0.2.10",
+    "ts-morph": "^24.0.0",
+    "typescript": "^5.7.2",
+    "undici-types": "^6.20.0"
+  },
+  "devDependencies": {},
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "@types/node": "^22.10.1",
-    "ts-morph": "^24.0.0",
-    "typescript": "^5.7.2"
-  }
+  "description": ""
 }
